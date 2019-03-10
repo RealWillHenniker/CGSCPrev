@@ -635,7 +635,7 @@ margin-top: 4%;
 }
 .parallax {
     /* The image used */
-    background-image: url("../images/GL1BartonPool.jpg");
+    background-image: url("../images/GL1BartonPoolShort.jpg");
 
     /* Full height */
     height: 50%; 
@@ -1851,11 +1851,28 @@ margin-top: 4%;
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -ms-overflow-style: -ms-autohiding-scrollbar;      
   }
   .table-responsive-xl > .table-bordered {
     border: 0;
   }
+   #Reader{
+    margin: 2;
+    /*background-color: yellow;*/
+   }
+}
+
+@media (min-width: 1299.98px) {
+    #Reader{
+        margin-left: 20%;
+        margin-right: 20%;
+
+        /*background-color: red;*/
+    }
+}
+
+#Reader{
+  margin-top: 0;
 }
 
 .table-responsive {
