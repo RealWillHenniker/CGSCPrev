@@ -4188,7 +4188,7 @@ input[type="button"].btn-block {
   }
 }
 .Logo {
-    height: 5%;
+    height: 50;
     vertical-align: middle;
 }
 @media (max-width: 767.98px) {
@@ -4411,7 +4411,7 @@ input[type="button"].btn-block {
 
 @font-face {
     font-family: "TitleFont"; /*a name to be used later*/
-    src: url("../Fonts/rubik/Rubik-BoldItalic"); /*URL to font*/
+    src: url(""); /*URL to font*/
 }
 
 .navbar-dark .navbar-brand {
